@@ -6,7 +6,7 @@
 # choose to as long as rotate returns the correct string.
 # Note that n can be positive, negative or zero.
 
-
+#COments 
 
 
 def shift_n_letters(letter, n):
@@ -19,7 +19,6 @@ def shift_n_letters(letter, n):
     return chr(int_val)
 
 
-# In[10]:
 
 
 def rotate(string, number):
@@ -46,11 +45,6 @@ print rotate('ifaj',-5)
 #>>>'dave'
 print rotate(("zw pfli tfuv nfibj tfiivtkcp pfl jyflcu "
                 "sv rscv kf ivru kyzj"),-17)
-#>>> ???
-
-
-# In[ ]:
-
 
 
 
