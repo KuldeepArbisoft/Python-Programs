@@ -1,17 +1,8 @@
 
-# coding: utf-8
-
-# In[1]:
-
-
 # Write a procedure, shift_n_letters which takes as its input a lowercase
 # letter, a-z, and an integer n, and returns the letter n steps in the
 # alphabet after it. Note that 'a' follows 'z', and that n can be positive,
 #negative or zero.
-
-
-
-# In[7]:
 
 
 def shift_n_letters(letter, n):
@@ -22,9 +13,6 @@ def shift_n_letters(letter, n):
     elif int_val < 97:
         int_val = int_val + 26;
     return chr(int_val)
-
-
-# In[9]:
 
 
 
@@ -38,7 +26,6 @@ print shift_n_letters('s', -10)
 #>>> i
 
 
-# In[ ]:
 
 
 
