@@ -1,9 +1,4 @@
 
-# coding: utf-8
-
-# In[8]:
-
-
 # Write a procedure, rotate which takes as its input a string of lower case
 # letters, a-z, and spaces, and an integer n, and returns the string constructed
 # by shifting each of the letters n steps, and leaving the spaces unchanged.
@@ -12,7 +7,6 @@
 # Note that n can be positive, negative or zero.
 
 
-# In[9]:
 
 
 def shift_n_letters(letter, n):
@@ -34,7 +28,7 @@ def rotate(string, number):
         if character == " ":
             temp += " ";
             continue
-        temp += shift_n_letters(character,number)
+        temp += shift_n_letters(character, number)
     return temp
     
 
